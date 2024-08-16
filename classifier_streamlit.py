@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
 
-naive = joblib.load("another_one.pkl")
+naive = joblib.load("trained_model.pkl")
 
 def preprocess_image(image):
     image = resize(image,(15, 15)) 
